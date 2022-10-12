@@ -4,98 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Pop Smoke</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="nav main-nav">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="store.html">STORE</a></li>
           <li><a href="about.html">ABOUT</a></li>
         </ul>
       </nav>
-      <hr />
-      <h1>Pop Smoke</h1>
-      <button type="button">Latest Album</button>
-      <br />
-      <br />
-      <!-- Find a suitable background image -->
-      <button type="button">Play</button>
-    </header>
-    <section>
-      <h2>Tours</h2>
+      <h1 class="artist-name artist-name-large">Pop Smoke</h1>
+      <div class="container buttons">
+        <button class="btn btn-header" type="button">Latest Album</button>
+        <button class="btn btn-header" type="button">&#9658</button>
+    </div>
+  </header>
+
+    <section class="content-section container">
+      <h2 class="section-header">Tours</h2>
       <div>
-        <div>
-          <strong>Jul 16</strong>
-          &lt;&gt;
-          <span>Detroit, MI</span>
-          &lt;&gt;
-          <span>DTE Music Theater</span>
-          &lt;&gt;
-          <button type="button">Buy Tickets</button>
-          <hr />
-          <div>
-            <strong>Jul 16</strong>
-            &lt;&gt;
-            <span>Detroit, MI</span>
-            &lt;&gt;
-            <span>DTE Music Theater</span>
-            &lt;&gt;
-            <button type="button">Buy Tickets</button>
-            <hr />
-            <div>
-              <strong>Jul 16</strong>
-              &lt;&gt;
-              <span>Detroit, MI</span>
-              &lt;&gt;
-              <span>DTE Music Theater</span>
-              &lt;&gt;
-              <button type="button">Buy Tickets</button>
-              <hr />
-              <div>
-                <strong>Jul 16</strong>
-                &lt;&gt;
-                <span>Detroit, MI</span>
-                &lt;&gt;
-                <span>DTE Music Theater</span>
-                &lt;&gt;
-                <button type="button">Buy Tickets</button>
-                <hr />
-                <div>
-                  <strong>Jul 16</strong>
-                  &lt;&gt;
-                  <span>Detroit, MI</span>
-                  &lt;&gt;
-                  <span>DTE Music Theater</span>
-                  &lt;&gt;
-                  <button type="button">Buy Tickets</button>
-                  
+        <div class="tour-row">
+          <span class="tour-item tour-date">Jul 16</span>
+          <span class="tour-item tour-city">Detroit, MI</span>
+          <span class="tour-item tour-arena">DTE Music Theater</span>
+          <button class="tour-item btn tour-btn btn-primary " type="button">Buy Tickets</button>
+        </div>
+          
+        <div class="tour-row">
+          <span class="tour-item tour-date">Jul 16</span>
+          <span class="tour-item tour-city">Detroit, MI</span>
+          <span class="tour-item tour-arena">DTE Music Theater</span>
+          <button class="tour-item btn tour-btn btn-primary" type="button">Buy Tickets</button>
+        </div>
+
+        <div class="tour-row">
+          <span class="tour-item tour-date">Jul 16</span>
+          <span class="tour-item tour-city">Detroit, MI</span>
+          <span class="tour-item tour-arena">DTE Music Theater</span>
+          <button class="tour-item btn tour-btn btn-primary" type="button">Buy Tickets</button>
+        </div>
+
+        <div class="tour-row">
+          <span class="tour-item tour-date">Jul 16</span>
+          <span class="tour-item tour-city">Detroit, MI</span>
+          <span class="tour-item tour-arena">DTE Music Theater</span>
+          <button class="tour-item btn tour-btn btn-primary" type="button">Buy Tickets</button>
+        </div>
+
+        <div class="tour-row">
+          <span class="tour-item tour-date">Jul 16</span>
+          <span class="tour-item tour-city">Detroit, MI</span>
+          <span class="tour-item tour-arena">DTE Music Theater</span>
+          <button class="tour-item btn tour-btn btn-primary" type="button">Buy Tickets</button>
         </div>
       </div>
     </section>
 
-    <footer>
-      <h3>Pop Smoke</h3>
-      <ul>
-        <li>
-          <a href="https://www.youtube.com/" target="_blank"
-            ><img src="/images/youtube.jpeg" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.spotify.com/us/" target="_blank"
-            ><img src="/images/Spotify.jpeg"
-          /></a>
-        </li>
-        <li>
-          <a>
-            <a href="https://www.facebook.com/" target="_blank"
-              ><img src="/images/facebook.png"
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="artist-name">Pop Smoke</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><img src="/images/YouTube_dark_icon_(2017).svg" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spotify.com/us/" target="_blank"
+              ><img src="/images/spotify-black.png"
             /></a>
-          </a>
-        </li>
-      </ul>
+          </li>
+          <li>
+            <a>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="/images/Facebook+Icon+Black.png"
+              /></a>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
